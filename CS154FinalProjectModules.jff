@@ -34,12 +34,6 @@
 			<x>936.0</x>
 			<y>543.0</y>
 		</block>
-		<block id="9" name="q9">
-			<tag>Machine9</tag>
-			<x>2336.0</x>
-			<y>71.0</y>
-			<final/>
-		</block>
 		<block id="10" name="q10">
 			<tag>Machine10</tag>
 			<x>911.0</x>
@@ -2144,13 +2138,6 @@
 			<move>L</move>
 		</transition>
 		<transition>
-			<from>80</from>
-			<to>9</to>
-			<read/>
-			<write>R</write>
-			<move>S</move>
-		</transition>
-		<transition>
 			<from>13</from>
 			<to>14</to>
 			<read>z</read>
@@ -2695,6 +2682,13 @@
 			<read>d</read>
 			<write>d</write>
 			<move>L</move>
+		</transition>
+		<transition>
+			<from>80</from>
+			<to>4</to>
+			<read/>
+			<write>R</write>
+			<move>S</move>
 		</transition>
 		<transition>
 			<from>28</from>
@@ -3390,7 +3384,6 @@ with and checks to see if they were equal or different in value.
 		<Machine7/>
 		<Machine72/>
 		<Machine71/>
-		<Machine9/>
 		<Machine70/>
 		<Machine33/>
 		<Machine77/>
