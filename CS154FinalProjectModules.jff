@@ -10,13 +10,13 @@
 		</block>
 		<block id="1" name="block2">
 			<tag>block2.jff</tag>
-			<x>217.0</x>
-			<y>247.0</y>
+			<x>257.0</x>
+			<y>245.0</y>
 		</block>
 		<block id="2" name="Block3">
 			<tag>Block3.jff</tag>
-			<x>635.0</x>
-			<y>123.0</y>
+			<x>765.0</x>
+			<y>125.0</y>
 		</block>
 		<block id="3" name="block6">
 			<tag>block6.jff</tag>
@@ -31,8 +31,8 @@
 		</block>
 		<block id="5" name="block4e">
 			<tag>block4e.jff</tag>
-			<x>1384.0</x>
-			<y>695.0</y>
+			<x>937.0</x>
+			<y>669.0</y>
 		</block>
 		<block id="6" name="block4c">
 			<tag>block4c.jff</tag>
@@ -41,18 +41,18 @@
 		</block>
 		<block id="7" name="q7">
 			<tag>Machine7</tag>
-			<x>564.0</x>
-			<y>224.0</y>
+			<x>487.0</x>
+			<y>237.0</y>
 		</block>
 		<block id="8" name="block4d">
 			<tag>block4d.jff</tag>
-			<x>814.0</x>
-			<y>723.0</y>
+			<x>615.0</x>
+			<y>542.0</y>
 		</block>
 		<block id="10" name="q10">
 			<tag>Machine10</tag>
-			<x>938.0</x>
-			<y>98.0</y>
+			<x>924.0</x>
+			<y>186.0</y>
 		</block>
 		<block id="11" name="q11">
 			<tag>Machine11</tag>
@@ -61,8 +61,8 @@
 		</block>
 		<block id="12" name="q12">
 			<tag>Machine12</tag>
-			<x>1638.0</x>
-			<y>348.0</y>
+			<x>1610.0</x>
+			<y>270.0</y>
 		</block>
 		<block id="13" name="q13">
 			<tag>Machine13</tag>
@@ -81,8 +81,8 @@
 		</block>
 		<block id="16" name="q16">
 			<tag>Machine16</tag>
-			<x>2143.0</x>
-			<y>208.0</y>
+			<x>2112.0</x>
+			<y>360.0</y>
 		</block>
 		<block id="20" name="q20">
 			<tag>Machine20</tag>
@@ -91,8 +91,8 @@
 		</block>
 		<block id="25" name="q25">
 			<tag>Machine25</tag>
-			<x>909.0</x>
-			<y>866.0</y>
+			<x>617.0</x>
+			<y>727.0</y>
 		</block>
 		<block id="26" name="q26">
 			<tag>Machine26</tag>
@@ -3852,7 +3852,6 @@ This is another mechanism to handle the number of zs being different from the nu
 				<tag>Machine0</tag>
 				<x>183.0</x>
 				<y>224.0</y>
-				<initial/>
 			</block>
 			<block id="1" name="q1">
 				<tag>Machine1</tag>
@@ -3874,6 +3873,12 @@ This is another mechanism to handle the number of zs being different from the nu
 				<x>756.0</x>
 				<y>364.0</y>
 			</block>
+			<block id="5" name="q5">
+				<tag>Machine5</tag>
+				<x>208.0</x>
+				<y>340.0</y>
+				<initial/>
+			</block>
 			<!--The list of transitions.-->
 			<transition>
 				<from>2</from>
@@ -3884,6 +3889,13 @@ This is another mechanism to handle the number of zs being different from the nu
 			</transition>
 			<transition>
 				<from>0</from>
+				<to>1</to>
+				<read>x</read>
+				<write>x</write>
+				<move>R</move>
+			</transition>
+			<transition>
+				<from>5</from>
 				<to>1</to>
 				<read>x</read>
 				<write>x</write>
@@ -3959,12 +3971,20 @@ This is another mechanism to handle the number of zs being different from the nu
 				<write>1</write>
 				<move>S</move>
 			</transition>
+			<transition>
+				<from>5</from>
+				<to>5</to>
+				<read>!y</read>
+				<write>~</write>
+				<move>R</move>
+			</transition>
 			<!--The list of automata-->
 			<Machine0/>
 			<Machine2/>
 			<Machine1/>
 			<Machine4/>
 			<Machine3/>
+			<Machine5/>
 			<note>
 				<text>This part is executed when the machine runs through all the zs and needs to check to see if the number of 
 xs is the same.
@@ -4147,7 +4167,7 @@ xs is the same.</text>
 This block rejects all inputs.
 </text>
 			<x>1810.0</x>
-			<y>11.0</y>
+			<y>17.0</y>
 		</note>
 		<note>
 			<text>Block 4: q(7, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 22, 23, 24, 104, 105, 106, 107, 108, 109, 110)
@@ -4180,7 +4200,7 @@ another machine.
 This is another mechanism to handle the number of zs being different from the number of xs.
 </text>
 			<x>1553.0</x>
-			<y>572.0</y>
+			<y>578.0</y>
 		</note>
 		<note>
 			<text>Block 2: q(4, 6)
@@ -4189,7 +4209,7 @@ when the input symbol is consumed and the machine
 checks with the corresponding value that it was comparing 
 with and checks to see if they were equal or different in value.</text>
 			<x>26.0</x>
-			<y>66.0</y>
+			<y>72.0</y>
 		</note>
 		<note>
 			<text>Block 3: q(45, 47, 48, 49, 50, 51, 52)
@@ -4199,7 +4219,7 @@ but the middle component of the corresponding D-segment does
 not match the next input symbol, so all data must be erased and 
 the machine needs to start afresh.</text>
 			<x>205.0</x>
-			<y>-2.0</y>
+			<y>4.0</y>
 		</note>
 		<note>
 			<text>Block 6: q(82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92)
@@ -4222,7 +4242,7 @@ the data needs to be erased.
 
 This is when the machine accepts or starts anew.</text>
 			<x>2117.0</x>
-			<y>655.0</y>
+			<y>661.0</y>
 		</note>
 	</automaton>
 </structure>
