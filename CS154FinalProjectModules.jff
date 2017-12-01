@@ -31,8 +31,8 @@
 		</block>
 		<block id="5" name="block4e">
 			<tag>block4e.jff</tag>
-			<x>807.0</x>
-			<y>520.0</y>
+			<x>876.0</x>
+			<y>494.0</y>
 		</block>
 		<block id="6" name="block4c">
 			<tag>block4c.jff</tag>
@@ -46,8 +46,8 @@
 		</block>
 		<block id="8" name="block4d">
 			<tag>block4d.jff</tag>
-			<x>600.0</x>
-			<y>441.0</y>
+			<x>628.0</x>
+			<y>439.0</y>
 		</block>
 		<block id="9" name="block4b">
 			<tag>block4b.jff</tag>
@@ -3723,6 +3723,7 @@ the machine needs to start afresh.
 				<tag>Machine6</tag>
 				<x>1065.0</x>
 				<y>214.0</y>
+				<final/>
 			</block>
 			<!--The list of transitions.-->
 			<transition>
