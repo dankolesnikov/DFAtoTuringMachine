@@ -57,38 +57,10 @@
 		</transition>
 		<transition>
 			<from>0</from>
-			<to>2</to>
-			<read>1</read>
-			<write>x</write>
-			<move>L</move>
-		</transition>
-		<transition>
-			<from>4</from>
 			<to>5</to>
 			<read>X</read>
 			<write>X</write>
 			<move>R</move>
-		</transition>
-		<transition>
-			<from>5</from>
-			<to>4</to>
-			<read>D</read>
-			<write>D</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>1</to>
-			<read>0</read>
-			<write>0</write>
-			<move>S</move>
-		</transition>
-		<transition>
-			<from>2</from>
-			<to>3</to>
-			<read>z</read>
-			<write>z</write>
-			<move>S</move>
 		</transition>
 		<transition>
 			<from>5</from>
@@ -140,6 +112,27 @@
 			<move>L</move>
 		</transition>
 		<transition>
+			<from>4</from>
+			<to>5</to>
+			<read>X</read>
+			<write>X</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>5</from>
+			<to>4</to>
+			<read>D</read>
+			<write>D</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>0</read>
+			<write>0</write>
+			<move>S</move>
+		</transition>
+		<transition>
 			<from>0</from>
 			<to>0</to>
 			<read>x</read>
@@ -175,18 +168,25 @@
 			<move>R</move>
 		</transition>
 		<transition>
-			<from>2</from>
-			<to>4</to>
+			<from>0</from>
+			<to>2</to>
 			<read>1</read>
 			<write>x</write>
 			<move>L</move>
 		</transition>
 		<transition>
-			<from>0</from>
-			<to>5</to>
-			<read>X</read>
-			<write>X</write>
-			<move>R</move>
+			<from>4</from>
+			<to>2</to>
+			<read>1</read>
+			<write>x</write>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>3</to>
+			<read>z</read>
+			<write>z</write>
+			<move>S</move>
 		</transition>
 		<!--The list of automata-->
 		<Machine7/>
