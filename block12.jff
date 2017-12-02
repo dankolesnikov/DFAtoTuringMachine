@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 6.4.--><structure>
+	<type>turing</type>
+	<automaton>
+		<!--The list of states.-->
+		<block id="1" name="q1">
+			<tag>Machine1</tag>
+			<x>197.0</x>
+			<y>104.0</y>
+			<initial/>
+		</block>
+		<block id="2" name="q2">
+			<tag>Machine2</tag>
+			<x>348.0</x>
+			<y>105.0</y>
+		</block>
+		<!--The list of transitions.-->
+		<transition>
+			<from>2</from>
+			<to>2</to>
+			<read>x</read>
+			<write>x</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>2</to>
+			<read>x</read>
+			<write>x</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>!x</read>
+			<write>~</write>
+			<move>R</move>
+		</transition>
+		<!--The list of automata-->
+		<Machine2/>
+		<Machine1/>
+		<note>
+			<text>Block 12: q(22, 46)
+
+This is an indicator that all input symbols are consumed,
+and therefore needs to run through block 6 to see if the symbol
+is accepted or rejected.</text>
+			<x>47.0</x>
+			<y>177.0</y>
+		</note>
+	</automaton>
+</structure>
