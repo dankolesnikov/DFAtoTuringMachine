@@ -81,8 +81,8 @@
 		</block>
 		<block id="15" name="q15">
 			<tag>Machine77</tag>
-			<x>746.0</x>
-			<y>1964.0</y>
+			<x>1275.0</x>
+			<y>1925.0</y>
 		</block>
 		<block id="16" name="q16">
 			<tag>Machine99</tag>
@@ -274,20 +274,10 @@
 			<x>906.0</x>
 			<y>1035.0</y>
 		</block>
-		<block id="56" name="q56">
-			<tag>Machine56</tag>
-			<x>1110.0</x>
-			<y>1955.0</y>
-		</block>
-		<block id="57" name="q57">
-			<tag>Machine57</tag>
-			<x>941.0</x>
-			<y>1442.0</y>
-		</block>
-		<block id="58" name="q58">
-			<tag>Machine58</tag>
-			<x>536.0</x>
-			<y>1436.0</y>
+		<block id="54" name="block11">
+			<tag>block11.jff</tag>
+			<x>1180.0</x>
+			<y>1753.0</y>
 		</block>
 		<block id="59" name="q59">
 			<tag>Machine59</tag>
@@ -296,8 +286,8 @@
 		</block>
 		<block id="60" name="q60">
 			<tag>Machine60</tag>
-			<x>1567.0</x>
-			<y>1467.0</y>
+			<x>1552.0</x>
+			<y>1571.0</y>
 		</block>
 		<block id="61" name="q61">
 			<tag>Machine61</tag>
@@ -356,8 +346,8 @@
 		</block>
 		<block id="75" name="block7">
 			<tag>block7.jff</tag>
-			<x>1804.0</x>
-			<y>1727.0</y>
+			<x>1845.0</x>
+			<y>1911.0</y>
 		</block>
 		<!--The list of transitions.-->
 		<transition>
@@ -422,13 +412,6 @@
 			<read>x</read>
 			<write>x</write>
 			<move>R</move>
-		</transition>
-		<transition>
-			<from>57</from>
-			<to>58</to>
-			<read>D</read>
-			<write>D</write>
-			<move>L</move>
 		</transition>
 		<transition>
 			<from>2</from>
@@ -872,13 +855,6 @@
 			<move>L</move>
 		</transition>
 		<transition>
-			<from>58</from>
-			<to>58</to>
-			<read>1</read>
-			<write>1</write>
-			<move>L</move>
-		</transition>
-		<transition>
 			<from>34</from>
 			<to>34</to>
 			<read>1</read>
@@ -1117,13 +1093,6 @@
 			<move>R</move>
 		</transition>
 		<transition>
-			<from>56</from>
-			<to>56</to>
-			<read>X</read>
-			<write>X</write>
-			<move>R</move>
-		</transition>
-		<transition>
 			<from>11</from>
 			<to>11</to>
 			<read>x</read>
@@ -1156,13 +1125,6 @@
 			<to>43</to>
 			<read>X</read>
 			<write>X</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>57</from>
-			<to>57</to>
-			<read>1</read>
-			<write>1</write>
 			<move>R</move>
 		</transition>
 		<transition>
@@ -1348,13 +1310,6 @@
 			<move>R</move>
 		</transition>
 		<transition>
-			<from>56</from>
-			<to>56</to>
-			<read>0</read>
-			<write>0</write>
-			<move>R</move>
-		</transition>
-		<transition>
 			<from>40</from>
 			<to>40</to>
 			<read>X</read>
@@ -1467,13 +1422,6 @@
 			<move>R</move>
 		</transition>
 		<transition>
-			<from>56</from>
-			<to>56</to>
-			<read>D</read>
-			<write>D</write>
-			<move>R</move>
-		</transition>
-		<transition>
 			<from>44</from>
 			<to>44</to>
 			<read>y</read>
@@ -1497,13 +1445,6 @@
 		<transition>
 			<from>45</from>
 			<to>45</to>
-			<read>1</read>
-			<write>1</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>56</from>
-			<to>56</to>
 			<read>1</read>
 			<write>1</write>
 			<move>R</move>
@@ -1726,13 +1667,6 @@
 			<move>R</move>
 		</transition>
 		<transition>
-			<from>56</from>
-			<to>56</to>
-			<read>x</read>
-			<write>X</write>
-			<move>R</move>
-		</transition>
-		<transition>
 			<from>35</from>
 			<to>36</to>
 			<read>1</read>
@@ -1782,13 +1716,6 @@
 			<move>L</move>
 		</transition>
 		<transition>
-			<from>56</from>
-			<to>57</to>
-			<read>z</read>
-			<write>1</write>
-			<move>R</move>
-		</transition>
-		<transition>
 			<from>26</from>
 			<to>26</to>
 			<read>x</read>
@@ -1814,13 +1741,6 @@
 			<to>14</to>
 			<read>0</read>
 			<write>0</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>57</from>
-			<to>57</to>
-			<read>z</read>
-			<write>1</write>
 			<move>R</move>
 		</transition>
 		<transition>
@@ -1971,20 +1891,6 @@
 			<move>R</move>
 		</transition>
 		<transition>
-			<from>75</from>
-			<to>56</to>
-			<read>d</read>
-			<write>d</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>74</from>
-			<to>56</to>
-			<read>d</read>
-			<write>d</write>
-			<move>R</move>
-		</transition>
-		<transition>
 			<from>71</from>
 			<to>74</to>
 			<read>D</read>
@@ -2090,6 +1996,13 @@
 			<move>R</move>
 		</transition>
 		<transition>
+			<from>75</from>
+			<to>54</to>
+			<read>d</read>
+			<write>d</write>
+			<move>R</move>
+		</transition>
+		<transition>
 			<from>6</from>
 			<to>9</to>
 			<read>1</read>
@@ -2144,10 +2057,10 @@
 			<move>R</move>
 		</transition>
 		<transition>
-			<from>58</from>
-			<to>25</to>
-			<read>0</read>
-			<write>0</write>
+			<from>74</from>
+			<to>54</to>
+			<read>d</read>
+			<write>d</write>
 			<move>R</move>
 		</transition>
 		<transition>
@@ -2160,6 +2073,13 @@
 		<transition>
 			<from>1</from>
 			<to>7</to>
+			<read>0</read>
+			<write>0</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>54</from>
+			<to>25</to>
 			<read>0</read>
 			<write>0</write>
 			<move>R</move>
@@ -2202,6 +2122,13 @@
 			<to>18</to>
 			<read>!□</read>
 			<write>1</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>15</from>
+			<to>54</to>
+			<read>d</read>
+			<write>d</write>
 			<move>R</move>
 		</transition>
 		<transition>
@@ -2280,13 +2207,6 @@
 			<read>1</read>
 			<write>1</write>
 			<move>L</move>
-		</transition>
-		<transition>
-			<from>15</from>
-			<to>56</to>
-			<read>d</read>
-			<write>d</write>
-			<move>R</move>
 		</transition>
 		<transition>
 			<from>19</from>
@@ -2904,6 +2824,109 @@ The segment compares the number of zs and xs and determine the results.
 		<Machine4/>
 		<Machine80/>
 		<Machine62/>
+		<block11.jff>
+			<!--The list of states.-->
+			<block id="0" name="q0">
+				<tag>Machine0</tag>
+				<x>68.0</x>
+				<y>147.0</y>
+				<initial/>
+			</block>
+			<block id="1" name="q1">
+				<tag>Machine1</tag>
+				<x>238.0</x>
+				<y>150.0</y>
+			</block>
+			<block id="2" name="q2">
+				<tag>Machine2</tag>
+				<x>394.0</x>
+				<y>143.0</y>
+			</block>
+			<!--The list of transitions.-->
+			<transition>
+				<from>0</from>
+				<to>0</to>
+				<read>x</read>
+				<write>X</write>
+				<move>R</move>
+			</transition>
+			<transition>
+				<from>0</from>
+				<to>0</to>
+				<read>X</read>
+				<write>X</write>
+				<move>R</move>
+			</transition>
+			<transition>
+				<from>0</from>
+				<to>0</to>
+				<read>1</read>
+				<write>1</write>
+				<move>R</move>
+			</transition>
+			<transition>
+				<from>0</from>
+				<to>0</to>
+				<read>D</read>
+				<write>D</write>
+				<move>R</move>
+			</transition>
+			<transition>
+				<from>0</from>
+				<to>0</to>
+				<read>0</read>
+				<write>0</write>
+				<move>R</move>
+			</transition>
+			<transition>
+				<from>1</from>
+				<to>1</to>
+				<read>1</read>
+				<write>1</write>
+				<move>R</move>
+			</transition>
+			<transition>
+				<from>0</from>
+				<to>1</to>
+				<read>z</read>
+				<write>1</write>
+				<move>R</move>
+			</transition>
+			<transition>
+				<from>1</from>
+				<to>1</to>
+				<read>z</read>
+				<write>1</write>
+				<move>R</move>
+			</transition>
+			<transition>
+				<from>1</from>
+				<to>2</to>
+				<read>D</read>
+				<write>D</write>
+				<move>L</move>
+			</transition>
+			<transition>
+				<from>2</from>
+				<to>2</to>
+				<read>1</read>
+				<write>1</write>
+				<move>L</move>
+			</transition>
+			<!--The list of automata-->
+			<Machine0/>
+			<Machine2/>
+			<Machine1/>
+			<note>
+				<text>Block 11: q(56, 57, 58)
+
+This block is responsible for erasing data
+and reverting back to block 13.
+</text>
+				<x>0.0</x>
+				<y>0.0</y>
+			</note>
+		</block11.jff>
 		<Machine61/>
 		<Machine60/>
 		<Machine65/>
@@ -3934,9 +3957,6 @@ This is another mechanism to handle the number of zs being different from the nu
 		<Machine102/>
 		<Machine96/>
 		<Machine59/>
-		<Machine58/>
-		<Machine57/>
-		<Machine56/>
 		<block4d.jff>
 			<!--The list of states.-->
 			<block id="1" name="q1">
@@ -4138,8 +4158,8 @@ xs is the same.
 
 This block rejects all inputs.
 </text>
-			<x>1213.0</x>
-			<y>360.0</y>
+			<x>595.0</x>
+			<y>153.0</y>
 		</note>
 		<note>
 			<text>Block 4: q(7, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 22, 23, 24, 104, 105, 106, 107, 108, 109, 110)
@@ -4171,8 +4191,8 @@ another machine.
 
 This is another mechanism to handle the number of zs being different from the number of xs.
 </text>
-			<x>1107.0</x>
-			<y>760.0</y>
+			<x>1161.0</x>
+			<y>300.0</y>
 		</note>
 		<note>
 			<text>Block 2: q(4, 6)
@@ -4180,8 +4200,8 @@ This is an intermedietary segment that functions
 when the input symbol is consumed and the machine
 checks with the corresponding value that it was comparing 
 with and checks to see if they were equal or different in value.</text>
-			<x>1125.0</x>
-			<y>631.0</y>
+			<x>552.0</x>
+			<y>286.0</y>
 		</note>
 		<note>
 			<text>Block 3: q(45, 47, 48, 49, 50, 51, 52)
@@ -4190,8 +4210,8 @@ This set of commands gets executed when the right state is found
 but the middle component of the corresponding D-segment does
 not match the next input symbol, so all data must be erased and 
 the machine needs to start afresh.</text>
-			<x>1222.0</x>
-			<y>586.0</y>
+			<x>600.0</x>
+			<y>264.0</y>
 		</note>
 		<note>
 			<text>Block 6: q(82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92)
@@ -4213,8 +4233,18 @@ the data needs to be erased.
 6c: q(86, 87, 89, 90)
 
 This is when the machine accepts or starts anew.</text>
-			<x>1158.0</x>
-			<y>451.0</y>
+			<x>568.0</x>
+			<y>198.0</y>
+		</note>
+		<note>
+			<text>Block 7: q(54, 55, 66, 67, 68)
+
+The goal of this block is to move the pointer to the very first D value.
+But since you can't just check for a D since there are many D's in the 
+sequence, this block is a logical sequence to determine which D it is
+on and to get to the very first D-value.\</text>
+			<x>1500.0</x>
+			<y>323.0</y>
 		</note>
 	</automaton>
 </structure>
