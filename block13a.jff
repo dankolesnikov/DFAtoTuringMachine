@@ -16,6 +16,13 @@
 		<!--The list of transitions.-->
 		<transition>
 			<from>0</from>
+			<to>0</to>
+			<read>z</read>
+			<write>1</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>0</from>
 			<to>1</to>
 			<read>d</read>
 			<write>d</write>
@@ -28,15 +35,16 @@
 			<write>D</write>
 			<move>L</move>
 		</transition>
-		<transition>
-			<from>0</from>
-			<to>0</to>
-			<read>z</read>
-			<write>1</write>
-			<move>R</move>
-		</transition>
 		<!--The list of automata-->
 		<Machine0/>
 		<Machine1/>
+		<note>
+			<text>13a: q(21, 24)
+
+This is to skip the first set of z's that might be before
+the string in consideration.</text>
+			<x>375.0</x>
+			<y>237.0</y>
+		</note>
 	</automaton>
 </structure>
