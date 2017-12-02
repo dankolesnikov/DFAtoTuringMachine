@@ -46,8 +46,8 @@
 		</block>
 		<block id="8" name="block4d">
 			<tag>block4d.jff</tag>
-			<x>666.0</x>
-			<y>444.0</y>
+			<x>637.0</x>
+			<y>430.0</y>
 		</block>
 		<block id="9" name="block4b">
 			<tag>block4b.jff</tag>
@@ -2717,6 +2717,7 @@ q6 to q7 was changed from 1;1, L to 1;1,S Necessary for module to work
 				<tag>Machine2</tag>
 				<x>521.0</x>
 				<y>259.0</y>
+				<final/>
 			</block>
 			<!--The list of transitions.-->
 			<transition>
@@ -2793,8 +2794,8 @@ This segment assumes that the numer of zs is not equal to the number of xs, so t
 the machine starts over
 
 </text>
-				<x>0.0</x>
-				<y>0.0</y>
+				<x>199.0</x>
+				<y>346.0</y>
 			</note>
 		</block4b.jff>
 		<block2.jff>
@@ -3955,23 +3956,13 @@ This is another mechanism to handle the number of zs being different from the nu
 			<!--The list of states.-->
 			<block id="1" name="q1">
 				<tag>Machine1</tag>
-				<x>365.0</x>
-				<y>226.0</y>
+				<x>407.0</x>
+				<y>335.0</y>
 			</block>
 			<block id="2" name="q2">
 				<tag>Machine2</tag>
-				<x>561.0</x>
-				<y>233.0</y>
-			</block>
-			<block id="3" name="q3">
-				<tag>Machine3</tag>
-				<x>802.0</x>
-				<y>166.0</y>
-			</block>
-			<block id="4" name="q4">
-				<tag>Machine4</tag>
-				<x>756.0</x>
-				<y>364.0</y>
+				<x>626.0</x>
+				<y>350.0</y>
 			</block>
 			<block id="5" name="q5">
 				<tag>Machine5</tag>
@@ -3980,20 +3971,6 @@ This is another mechanism to handle the number of zs being different from the nu
 				<initial/>
 			</block>
 			<!--The list of transitions.-->
-			<transition>
-				<from>2</from>
-				<to>3</to>
-				<read>1</read>
-				<write>1</write>
-				<move>S</move>
-			</transition>
-			<transition>
-				<from>2</from>
-				<to>4</to>
-				<read>0</read>
-				<write>0</write>
-				<move>S</move>
-			</transition>
 			<transition>
 				<from>1</from>
 				<to>1</to>
@@ -4032,8 +4009,6 @@ This is another mechanism to handle the number of zs being different from the nu
 			<!--The list of automata-->
 			<Machine2/>
 			<Machine1/>
-			<Machine4/>
-			<Machine3/>
 			<Machine5/>
 			<note>
 				<text>This part is executed when the machine runs through all the zs and needs to check to see if the number of 
