@@ -2,11 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd9e05f9-5286-489b-aa27-ed04f2cbfbfc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CS154FinalProjectModulesNotes.jff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FinalVersion.jff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pics/whiteboard_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pics/whiteboard_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Block3.jff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/block1.jff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/block10.jff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/block11.jff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/block12.jff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/block13a.jff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/block13b.jff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/block13c.jff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/block2.jff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/block4a.jff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/block4b.jff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/block4c.jff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/block4d.jff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/block4e.jff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/block5.jff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/block6.jff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/block7.jff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/block8b.jff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/block8c.jff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/block8d.jff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/encoded_dfa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example_dfa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/separators_dfa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/table_dfa.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="377">
-                <caret line="74" column="94" lean-forward="false" selection-start-line="74" selection-start-column="94" selection-end-line="74" selection-end-column="94" />
+              <first_editor relative-caret-position="559">
+                <caret line="94" column="34" lean-forward="false" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -202,12 +222,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513139221224</updated>
-      <workItem from="1513139223587" duration="2691000" />
+      <workItem from="1513139223587" duration="3132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2691000" />
+    <option name="totallyTimeSpent" value="3132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -263,8 +283,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="377">
-            <caret line="74" column="94" lean-forward="false" selection-start-line="74" selection-start-column="94" selection-end-line="74" selection-end-column="94" />
+          <first_editor relative-caret-position="559">
+            <caret line="94" column="34" lean-forward="false" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
             <folding />
           </first_editor>
           <second_editor />

@@ -1,7 +1,7 @@
 # Turing Machine
 > Turing Machine that takes an encoded DFA and prints out A to accept or R to reject the string input 
 
-![](header.png)
+![](readme_pics/header.png)
 
 # Description
 This Standard Turing Machine simulates behavior of any Deterministic Finite Automata that is properly encoded. The machine to be run in the transducer mode and will return A or R for accepting or rejecting a string.
@@ -19,7 +19,7 @@ Also w - input string.
 ### Example: 
 L = {b<sup>n</sup>a<sup>m</sup>} where n &#8805; 0 and m = 0 or 1
 
-![](example_dfa.png)
+![](readme_pics/example_dfa.png)
 
 
 Machine M constructed above can be mathematically breaken down to:
@@ -60,13 +60,13 @@ So, the encoded version of Q would be: Q = {1, 11, 111}
 <b>δ(q<sub>0</sub>, x) = q<sub>j</sub></b>
 <br>The elements of sub-rules are encoded by the same codes of Q and Σ and are formatted as the following figure shows. We use '0' (zero) as the separator between the elements.
 
-![](separators_dfa.png)
+![](readme_pics/separators_dfa.png)
 
 
 Note that q<sub>5</sub> and b have the same code (i.e. 11), but their locations in the string give them different meaning.
 <br>All sub-rules of the example have been encoded in the following table. 
 
-![](table_dfa.png)
+![](readme_pics/table_dfa.png)
 
 
 <b>Input string w = bba</b>
@@ -76,7 +76,7 @@ The symbols of the input string are encoded by the codes of Σ and are separated
 
 
 
-![](encoded_dfa.png)
+![](readme_pics/encoded_dfa.png)
 
 #### Final Result
 
@@ -92,6 +92,7 @@ After applying all of the rules of encoding our DFA will look like this:
 3. We don't need to put Q and Σ in the TM's input string because we just need to use their codes in δ, w, and F.
 4. We assume that the input string of the TM is 100% correct. It means, M and w are encoded and formatted correctly. Therefore, your  TM is not supposed to have any error checking or error reporting.
 5. Test your Turing machine as a transducer option of JFLAP.
+6. There are bugs in this machine.
 
 ## Usage
 
