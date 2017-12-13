@@ -4,17 +4,15 @@
 ![](readme_pics/header.png)
 
 # Description
-This Standard Turing Machine simulates behavior of any Deterministic Finite Automata that is properly encoded. The machine to be run in the transducer mode and will return A or R for accepting or rejecting a string.
+This Standard Turing Machine simulates behavior of any Deterministic Finite Automata that is properly encoded. The machine will return A or R for accepting or rejecting a string. Run the FinalRelease.jff in the the transducer mode of JFLAP program. Please be aware of potential bugs in this machine. 
 
 ## Deterministic Finite Automata (DFA) Fundamentals
-DFA can be mathmatically defined as M = (Q,Σ,δ,q<sub>0</sub>,F), where:
+DFA can be mathematically defined as M = (Q,Σ,δ,q<sub>0</sub>,F), where:
 * Q - List of states 
 * Σ - Alphabet
 * δ - Transition function
 * q<sub>0</sub> - Initial state
 * F - List of final(accepting) states 
-
-Also w - input string.
 
 ### Example: 
 L = {b<sup>n</sup>a<sup>m</sup>} where n &#8805; 0 and m = 0 or 1
@@ -22,7 +20,7 @@ L = {b<sup>n</sup>a<sup>m</sup>} where n &#8805; 0 and m = 0 or 1
 ![](readme_pics/example_dfa.png)
 
 
-Machine M constructed above can be mathematically breaken down to:
+Machine M constructed above can be mathematically broken down to:
 
 * Q = {q<sub>2</sub>,q<sub>5</sub>,q<sub>9</sub>}
 * Σ = {a,b}
